@@ -18,7 +18,9 @@ const io = new Server(server);
 
 // Kết nối MongoDB
 mongoose
-	.connect("mongodb://localhost:27017/bitcoin")
+	.connect(
+		"mongodb+srv://cn8262692:XgGhrMyDvl60hzpW@cluster0.u4nbaab.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+	)
 	.then(() => {
 		console.log("Connected to MongoDB");
 	})

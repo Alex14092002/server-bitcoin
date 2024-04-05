@@ -1,6 +1,6 @@
 // controllers/userController.js
 
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import User from "../models/User.mjs";
 
 // Tạo một người dùng mới
